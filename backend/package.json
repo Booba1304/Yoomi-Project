@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "prisma": "^6.15.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.15.0"
+  },
+  "scripts": {
+    "start:dev": "nest start --watch",
+    "migrate": "npx prisma migrate dev --name init",
+    "seed": "ts-node prisma/seed.ts"
+  }
+}
